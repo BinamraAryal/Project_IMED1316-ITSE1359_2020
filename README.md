@@ -1,4 +1,4 @@
-# Project_IMED1316_2021
+# Project_IMED1316_2020
 "Discover StepIn2! Static site showcasing opening hours, history, products, and promos. Connect via social media. Enhance your shopping experience! Open for contributions and feedback."
 # StepIn2 Website
 This repository hosts the static website for StepIn2, designed to introduce customers to our store, share key information about our offerings, and provide a seamless way for customers to connect with us through various social media channels.
