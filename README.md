@@ -4,11 +4,10 @@
 This repository hosts the static website for StepIn2, designed to introduce customers to our store, share key information about our offerings, and provide a seamless way for customers to connect with us through various social media channels.
 # Overview
 The STepIn2 website is built using HTML, CSS, and JavaScript. Its primary goals are to:
-
-    * Introduce the Store: Providing an overview of our history and values.
-    * Display Essential Information: Including opening hours and product details.
-    * Highlight Promotions: Showcasing current and upcoming offers.
-    * Facilitate Connection: Allowing customers to engage with us via different social media platforms.
+* Introduce the Store: Providing an overview of our history and values.
+* Display Essential Information: Including opening hours and product details.
+* Highlight Promotions: Showcasing current and upcoming offers.
+* Facilitate Connection: Allowing customers to engage with us via different social media platforms.
 # Features
 * Introduction: Learn about our store's background and values.
 * Opening Hours: Conveniently view our operating hours.
