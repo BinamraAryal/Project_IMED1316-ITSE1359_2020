@@ -17,4 +17,3 @@ The STepIn2 website is built using HTML, CSS, and JavaScript. Its primary goals 
 # Technologies Used
 * HTML
 * CSS
-* Javascript
