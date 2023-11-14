@@ -1,0 +1,629 @@
+/*style for container centers the page and the element width*/
+#container {
+	width: 100%;
+	
+	margin-left: 0em;
+	margin-right: 0em;
+	/*background-color: #EBEBEB;*/
+
+}
+
+/*style for header specifies top and bottom margins, background color, rounded corners, and center aligns content*/
+header{
+	/*margin-top: 0.2em;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;*/
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	
+	text-align: center;
+	/*background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase1_complete/image/background image07.jpg");*/
+	
+	border-top-style: none;
+	border-bottom-style: none;
+	box-shadow: 14px 14px 14px #404040;
+}
+header h1{
+	color: #00009C;
+	font-family: jokerman;
+	font-style: bolder;
+	font-size: 2.5em;
+}
+/*style for .exxon class specifies width, margin for the picture inserted*/
+.exxon{
+	width: 70%;
+	margin-right: 10em;
+	margin-left: 10em;
+
+}
+
+/*style for nav specifies text properties*/
+nav{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-align:  center;
+}
+
+/*style specifies padding and margins for unordered list*/
+nav ul{
+	padding:0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	
+}
+
+/*style for nav li specifies the background color, rounded corners, remove bullet style, and applies margins and padding for list items within the navigation*/
+nav li{
+	
+	list-style-type: none;
+
+}
+
+/*style changes navigations link text color to white and removes the underline*/
+nav li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+nav li a:link{
+	
+}
+
+nav li a:visited{
+	
+}
+
+nav li a:hover{
+	color: blue;
+}
+nav li a:active{
+	color: blue;
+}
+/*styles for .float class in home page*/
+.float{
+		
+	display: block;
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+	padding-right: 1.25em;
+	
+	background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main01.jpg");
+	border-top-style: none;
+	border-bottom-style: none;
+	box-shadow: 14px 14px 14px #888888;
+}
+.mobile{
+	display: inline;
+}
+/*style for main element specifies a block display, text properties, margins, padding, rounded corners, and border properties*/
+/*---*//*main{
+	display: flex;
+	/*font-family: Verdana, Arial, Sans-serif;
+	font-size: 1em;*/
+	/*margin-top: 2em;
+	padding-right: 1em;
+	padding-left: 1em;
+	
+	
+	background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/background image08.jpg");
+	border-top-style: none;
+	border-bottom-style: none;
+	box-shadow: 14px 14px 14px #888888;*/
+	
+}
+/*main p{
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 2em;
+	text-align: center;
+	padding-right: 1em;
+	padding-left: 1em;*//*--*/
+	
+	/*background-color: #FFFFFF;*//*-*/
+	
+	/*border-right: solid 0.2em #000000;
+	border-left: solid 0.2em #000000;
+	border-top: solid 0.2em #000000;
+	border-bottom: solid 0.2em #000000;
+	box-shadow: 10px 10px 10px #404040;
+}*/
+
+/*style for slides of pictures in products and vendors page*/
+
+main h1{
+		font-family: jokerman;
+	font-style: bold;
+	font-size: 32pt;
+	text-align: center;
+	color: #000000;
+
+}
+
+table,th,td{
+	border: 1px solid black;
+	/*border-color: #ff0000;*/
+	box-shadow: 14px 14px 14px #888888;
+			background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main02.jpg");
+	/*background-color: #FFFFFF;*/
+	
+	
+}
+table{
+	width: 60%;
+	margin-left: 12em;
+	margin-right: 12em;
+}
+th{
+	text-align: center;
+	font-family: Times New Roman;
+	color: #FFFFFF;
+	font-size: 28pt;
+	
+}
+tr{
+	text-align: center;
+	vertical-align: center;
+	font-family: Times New Roman;
+	color: #FFFFFF;
+	font-size: 24pt;
+	font-weight: bolder;
+	height: 1.75em;
+}
+/*main ul{
+	
+	padding:0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+
+	
+}
+
+main li{
+	
+	display: inline-block;
+	font-size: 1.75em;
+	font-family: jokerman;
+	text-align: center;
+			margin-left: 3em;
+	margin-right: 0em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-right: solid 0.2em #ff0000;
+	border-left: solid 0.2em #ff0000;
+	border-top: solid 0.2em #ff0000;
+	border-bottom: solid 0.2em #ff0000;
+	box-shadow: 14px 14px 14px #404040;
+
+
+}
+
+/*main li h2{
+	color: #00009C;
+}*/
+/* Style all font awesome icons */
+.fa {
+
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+    padding: 20px;
+  /*font-size: 2em;*/
+  height: 2em;
+ width: 2em;
+  margin-right: 5em;
+  margin-left: 9em;
+  text-align: center;
+   
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+    padding: 20px;
+  /*font-size: 2em;*/
+  height: 2em;
+ width: 2em;
+  margin-right: 5em;
+  margin-left: 9em;
+  text-align: center;
+   
+}
+/* Instagram */
+.fa-Instagram {
+  background: #55ACEE;
+  color: white;
+    padding: 20px;
+  /*font-size: 2em;*/
+  height: 2em;
+ width: 2em;
+  margin-right: 5em;
+  margin-left: 9em;
+  text-align: center;
+   
+}
+/* Google Review */
+.fa-Google {
+  background: #55ACEE;
+  color: white;
+    padding: 20px;
+  /*font-size: 2em;*/
+  height: 2em;
+ width: 2em;
+  margin-right: 5em;
+  margin-left: 22.75em;
+  text-align: center;
+   
+}
+/* Yelp */
+.fa-Yelp {
+  background: #55ACEE;
+  color: white;
+    padding: 20px;
+  /*font-size: 2em;*/
+  height: 2em;
+ width: 2em;
+  margin-right: 0em;
+  margin-left: 0em;
+  text-align: center;
+   
+}
+/*
+#rcorners01{
+ 
+  color: white;
+  font-weight: bolder;
+  margin-top: 3.5em;
+  margin-bottom: 1em;
+  margin-right: 0.25em;
+  padding-left: 1em;
+  border-radius: 1em;
+  border: 2px solid #000000;
+  padding: 20px; 
+  width: 12em;
+  height: 4.5em;
+  	background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main02.jpg");
+  box-shadow: 14px 14px 14px #000000;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;  
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: linear
+  
+}
+
+@keyframes example {
+  0%, 100% {
+    top: 0px;
+  }
+  50% {
+    top: 50px;
+  }
+}
+#rcorners02{
+ 
+   color: white;
+  font-weight: bolder;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 0.25em;
+  padding-left: 1em;
+  	background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main02.jpg");
+  border-radius: 1em;
+  border: 2px solid #000000;
+  padding: 20px; 
+  width: 12em;
+  height: 3.5em;
+  box-shadow: 14px 14px 14px #000000;
+
+}
+#rcorners03{
+  color: white;
+  font-weight: bolder;
+  margin-top: -5em;
+  margin-bottom: 1em;
+  margin-right: 0.25em;
+  padding-left: 2em;
+  	background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main02.jpg");
+  border-radius: 1em;
+  border: 2px solid #000000;
+  padding: 20px; 
+  width: 12em;
+  height: 4.85em;
+  box-shadow: 14px 14px 14px #000000;
+
+}
+*/
+
+/*style display for the desktop class*/
+.desktop{
+	display: none;
+}
+
+.fuel{
+				
+	width: 100%;
+	
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	box-shadow: 10px 10px 10px #404040;
+}
+.fuel02{
+			margin-left: 10em;
+			margin-right: 10em;
+	height: 30em;
+	width: 40em;
+	margin-top: 1.75em;
+	margin-bottom: 1em;
+	padding-left: 0.5em;
+	Padding-right: 0.5em;
+	box-shadow: 14px 14px 14px #000000;	
+}
+
+
+.index1
+{
+			float: left;
+			display: block;
+			/*margin-top: 5em;*/
+			margin-left: 0.5em;
+			margin-right: auto;
+	height: 345px;
+	width: 445px;
+	box-shadow: 10px 10px 10px #404040;
+
+}
+.index2
+{
+			float: left;
+			display: block;
+			/*margin-top: 5em;*/
+			margin-left: 4.8em;
+			margin-right: 4.8em;
+	height: 345px;
+	width: 445px;
+	box-shadow: 10px 10px 10px #404040;
+
+}
+/*.index3
+{
+			float: right;
+			display: block;
+			/*margin-top: 5em;
+			margin-right: -9em;
+	height: 345px;
+	width: 445px;
+	box-shadow: 10px 10px 10px #404040;*/
+
+}
+/*main p{
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 12pt;
+	padding: 1em;
+	border-radius: 0em;
+	background-color: #FFFFFF;
+	border-top: solid 0.2em #000000;
+	border-bottom: solid 0.2em #000000;
+	
+}*/
+/*style displays the mobile class*/
+.index4
+{
+			/*float: none;
+			display: block;
+			margin-top: 5em;*/
+			margin-left: 0.5em;
+			margin-right: 1em;
+	height: 345px;
+	width: 445px;
+	margin-top: 1.75em;
+	margin-bottom: 1em;
+	padding-left: 0.5em;
+	Padding-right: 0.5em;
+	box-shadow: 14px 14px 14px #000000;
+
+}
+.index5{
+		float: right;
+		/*	display: block;
+			/*margin-top: 5em;
+			margin-left: 1em;
+			margin-right: 1em;*/
+	height: 345px;
+	width: 445px;
+	margin-top: 1.75em;
+	margin-bottom: 1em;
+	padding-left: 0.5em;
+	Padding-right: 0.5em;
+	box-shadow: 14px 14px 14px #000000;
+}
+
+/*style for the about01 class which specifies the picture */
+.about01{
+	float: left;
+				/*margin-left: 0em;
+			margin-right: 0em;*/
+	height: 345px;
+	width: 445px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-right: 4em;
+	padding-left: 0.5em;
+	Padding-right: 0.5em;
+	box-shadow: 14px 14px 14px #000000;
+ -webkit-box-reflect: below -10px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent) , to(rgba(250, 250, 250, 0.1)));
+}
+
+
+.about02{
+
+	height: 345px;
+	width: 445px;
+	padding-left: 3em;
+	margin-top: 7em;
+	
+	/*margin-bottom: 1em;*/
+	margin-left: 1em;
+	padding-left: 0.5em;
+	Padding-right: 0.5em;
+	box-shadow: 14px 14px 14px #000000;
+ -webkit-box-reflect: below -10px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent) , to(rgba(250, 250, 250, 0.1)));
+}
+
+
+/*style for *snacks and drinks division* in products and vendors page with animation*/
+#rcorners04{
+  float: centre;
+  color: #FFFFFF;
+  font-size: 28pt;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 2em;
+  margin-left: 7.5em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  background-color: #FFFFFF;
+  	/*background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main02.jpg");*/
+  border-radius: 1em;
+ /* border: 2px solid #000000;
+  padding: 20px;*/ 
+  width: 10em;
+  height: 6em;
+  box-shadow: 14px 14px 14px #000000;
+  position: relative;
+  animation-name: example02;
+  animation-duration: 4s;  
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+   -webkit-box-reflect: below -10px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(30%, transparent) , to(rgba(250, 250, 250, 0.1)));
+
+  
+}
+@keyframes example02 {
+  from {background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main02.jpg")}
+  to {background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main01.jpg")}
+}
+
+/*style for the *carving for snacks* box in products and vendors page*/
+#rcorners05{
+	  float: centre;
+  color: #FFFFFF;
+  font-size: 28pt;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 6em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  background-color: #FFFFFF;
+  	/*background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main02.jpg");*/
+  border-radius: 1em;
+ /* border: 2px solid #000000;
+  padding: 20px;*/ 
+  width: 13em;
+  height: 8em;
+  box-shadow: 14px 14px 14px #000000;
+  position: relative;
+  animation-name: example03;
+  animation-duration: 4s;  
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+   -webkit-box-reflect: below -10px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(30%, transparent) , to(rgba(250, 250, 250, 0.1)));
+}
+@keyframes example03 {
+  from {background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main01.jpg")}
+  to {background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main02.jpg")}
+}
+
+/*style for picture below the fuel station in our products and vendors page*/
+#whitebox{
+	white-space: nowrap;
+	position:relative;
+		display: block;
+	font-size: 3em;
+	font-weight: bolder;
+	text-align: centre;
+	margin-top: 1em;
+	margin-left: 4em;
+	padding-top: 0.75em;
+	/*margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 4em;
+	padding-right: 1.25em;
+	background-color: #FFFFFF;*/
+	/*background-image: url("D:/Fall Semester 2020/IMED1316_Pro.Dianna/My project_Phase2_working/image/main01.jpg");*/
+	height: 2em;
+	width: 11em;
+	border-radius: 4em solid;
+	border-color: #000000;
+	border-top-style: none;
+	border-bottom-style: none;
+	box-shadow: 14px 14px 14px #000000;
+}
+
+
+.Logo02{
+	margin-top: 6em;
+	margin-bottom: 2em;
+	margin-right: 7em;
+	margin-left: 7em;
+	height: 190px;
+	width: 245px;
+	background-color: #FFFFFF;
+	/*border-radius: 1em;
+		border-color: #000000;
+	border-top-style: none;
+	border-bottom-style: none;*/
+	box-shadow: 14px 14px 14px #888888;
+
+}
+
+/*style for the *reward pic in the promotions and sales page* */
+.rewardspic{
+		float: left;
+				/*margin-left: 0em;
+			margin-right: 0em;*/
+	height: 445px;
+	width: 600px;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-right: 4em;
+	padding-left: 0.5em;
+	Padding-right: 0.5em;
+	box-shadow: 14px 14px 14px #000;
+ 
+}
+/*style for the words floating left of the *reward pic* i promotion page*/
+#promotions01{
+float: right;
+font-size: 32pt;
+}
+ 
+/*style for footer specifies font size, text alignment, and top margin*/
+footer{
+	font-size: 1.3em;
+	
+	text-align: center;
+	margin-top: 3em;
+}
